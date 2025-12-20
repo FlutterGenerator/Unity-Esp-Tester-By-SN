@@ -166,7 +166,6 @@ void *hack_thread(void *) {
 	auto Screen = new LoadClass("UnityEngine", OBFUSCATE("Screen"));
     DWORD ThisScreen = Screen->GetMethodOffsetByName(OBFUSCATE("SetResolution"), 3);  
     MSHookFunction((void *) ThisScreen, (void *) ScreenResolution, (void **) &this_ScreenResolution);
-    A64HookFunction((void *) ThisScreen, (void *) ScreenResolution, (void **) &this_ScreenResolution);
 	get_gamewidth = (int (*)()) Screen->GetMethodOffsetByName(OBFUSCATE("get_width"), 0);
 	get_gameheight = (int (*)()) Screen->GetMethodOffsetByName(OBFUSCATE("get_height"), 0);
 	
