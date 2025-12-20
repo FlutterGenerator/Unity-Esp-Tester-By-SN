@@ -1,6 +1,0 @@
-# Referenced at /storage/emulated/0/CodeAssistProjects/Unity-Esp-Tester-By-S-N/app/build/bin/AndroidManifest.xml:16
--keep class com.android.support.Launcher { <init>(); }
-# Referenced at /storage/emulated/0/CodeAssistProjects/Unity-Esp-Tester-By-S-N/app/build/bin/AndroidManifest.xml:7
--keep class com.android.support.LoggerApplication { <init>(); }
-# Referenced at /storage/emulated/0/CodeAssistProjects/Unity-Esp-Tester-By-S-N/app/build/bin/AndroidManifest.xml:8
--keep class com.android.support.MainActivity { <init>(); }
