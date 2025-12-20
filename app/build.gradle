@@ -4,6 +4,7 @@ plugins {
 
 android {
     compileSdkVersion 34
+    namespace 'com.android.support'
     defaultConfig {
         applicationId "com.android.support"
         minSdkVersion 21
